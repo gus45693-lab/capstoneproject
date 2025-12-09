@@ -1,0 +1,11 @@
+version: 1
+sources:
+  default:
+    t1: 0.55
+    t2: 0.75
+  news:
+    t1: 0.35
+    t2: 0.9
+  community:
+    t1: 0.55
+    t2: 0.75

@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+outputs*/
+deliverables/
+data/processed/*
+data/raw/*
+*.log
+
