@@ -1,10 +1,25 @@
-*.pyc
+# Python
 __pycache__/
-.venv/
-.ipynb_checkpoints/
-outputs*/
-deliverables/
-data/processed/*
-data/raw/*
-*.log
+*.pyc
+*.pyo
+*.pyd
 
+# 가상환경
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# 데이터(원본/중간 산출물은 필요하면 선택)
+data/raw/
+data/processed/*
+!data/processed/README.md
+
+# 모델 캐시
+.cache/
+huggingface/
