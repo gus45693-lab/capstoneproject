@@ -23,3 +23,7 @@ data/processed/*
 # 모델 캐시
 .cache/
 huggingface/
+
+# 실험/분석 결과 폴더는 Git에 올리지 않음
+outputs_*/
+outputs/
