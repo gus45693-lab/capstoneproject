@@ -27,3 +27,6 @@ huggingface/
 # 실험/분석 결과 폴더는 Git에 올리지 않음
 outputs_*/
 outputs/
+
+# 최종 산출물 폴더는 Git에 올리지 않음
+deliverables/
